@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+.title {
+  text-align: center;
+  font-family: 'Questrial', sans-serif;
+  font-weight: 100; }
+
+.slogan {
+  text-align: center;
+  font-family: 'Questrial', sans-serif;
+  font-weight: 100; }
+
+.shirt-link {
+  text-decoration: none;
+  text-align: center;
+  color: black; }
+
+.buy {
+  transition: all 0.4s;
+  padding: 10px;
+  border: 3px solid black;
+  margin-bottom: 5px;
+  font-family: 'Questrial', sans-serif; }
+  .buy:hover {
+    transition: all 0.4s;
+    background-color: black;
+    color: white; }
+
+.singlet {
+  margin-left: 100px !important; }
+
+ul.rig {
+  list-style: none;
+  font-size: 0px;
+  margin-left: 2%;
+  /* should match li left margin */ }
+
+ul.rig li {
+  display: inline-block;
+  padding: 10px;
+  width: 350px;
+  margin: 0px 0px 2.5% 2.5%;
+  background: #fff;
+  border: 1px solid #c6cbce;
+  font-size: 16px;
+  font-size: 1rem;
+  vertical-align: top;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+ul.rig li img {
+  max-width: 300px;
+  height: 300px;
+  margin-left: 50px; }
+
+ul.rig li h3 {
+  margin: 0 0 5px;
+  font-family: 'Questrial', sans-serif;
+  font-weight: 100; }
+
+ul.rig li p {
+  font-size: .9em;
+  line-height: 1.5em;
+  color: #999;
+  font-family: 'Questrial', sans-serif; }
+
+ul.rig.columns-4 li {
+  width: 22.5%;
+  /* this value + 2.5 should = 25% */ }
+
+@media (max-width: 480px) {
+  ul.grid-nav li {
+    display: block;
+    margin: 0 0 5px; }
+
+  ul.grid-nav li a {
+    display: block; }
+
+  ul.rig {
+    margin-left: -50px; }
+
+  ul.rig li {
+    width: 100% !important;
+    /* over-ride all li styles */
+    margin: 0; } }
+#mc_embed_signup {
+  background: black;
+  clear: left;
+  font: 14px Helvetica,Arial,sans-serif;
+  width: 100%;
+  color: white;
+  position: relative;
+  height: 100px; }
+
+/*# sourceMappingURL=custom.css.map */
